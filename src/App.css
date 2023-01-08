@@ -1,0 +1,113 @@
+body {
+  font-size: 15px;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.Container {
+  text-align: center;
+}
+
+/* estilo de la lista de los usuarios */
+.container__users-list {
+  text-align: left;
+  display: flex;
+  /* width: 800px; */
+  /* overflow: scroll; */
+  background-color: rgba(6, 96, 49, 0.453);
+}
+.container__list-users {
+  list-style: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 3, 0.456);
+  margin: 1rem;
+  padding: 2rem;
+  width: 550px;
+  background-color: rgba(7, 104, 61, 0.361);
+  color: rgb(3, 75, 32);
+}
+.list__users-data {
+  display: flex;
+}
+.name-users {
+  font-size: 1.2rem;
+}
+.btns__users {
+  display: flex;
+  margin-top: 1rem;
+  position: absolute;
+  left: 40%;
+}
+.btn__size {
+  width: 1.3rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+button {
+  border: 0;
+  background-color: transparent;
+}
+.btn__remove {
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: rgb(174, 15, 15);
+}
+.btn__remove:hover {
+  color: rgb(255, 0, 0);
+}
+
+/* estilos User Form */
+.container__form {
+  background-color: rgba(0, 0, 0, 0.216);
+  box-shadow: -3px 10px 8px rgba(0, 0, 3, 0.294);
+  border-radius: 15px;
+  width: 25rem;
+  position: fixed;
+  left: 63%;
+  top: 10rem;
+  padding: 0.5rem;
+  color: rgb(3, 86, 66);
+  z-index: 999;
+}
+.input__container {
+  text-align: left;
+  margin: 0.5rem;
+}
+.input__text {
+  height: 1.8rem;
+  width: 20rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.input__text-name,
+.input__text-last {
+  width: 9.8rem;
+  height: 1.8rem;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.container__btn-form {
+  margin-left: 1rem;
+}
+.btn__form {
+  width: 20rem;
+  height: 1.8rem;
+  background-color: rgba(138, 138, 213, 0.855);
+  border-radius: 10px;
+  margin: 0.2rem;
+  color: white;
+  cursor: pointer;
+}
+.btn__form:hover {
+  background-color: blueviolet;
+}
